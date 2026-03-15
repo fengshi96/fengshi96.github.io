@@ -8,7 +8,7 @@
 }
 
 .navbar {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	font-weight: 500;
 	font-size: 20px;
 	color: black
@@ -27,6 +27,18 @@ button {
 	padding: 30px 20%;
 	line-height: 1.5;
 	font-size: 18px;
+}
+
+.texts a,
+.texts a:visited {
+	color: #0088a9;
+	text-decoration: none;
+}
+
+.texts a:hover,
+.texts a:focus {
+	color: #29627e;
+	text-decoration: underline;
 }
 
 .home-intro p + p,
@@ -97,11 +109,19 @@ header {
 }
 
 .nav__links li a {
+	color: #0088a9;
+	text-decoration: none;
 	transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav__links li a:visited {
 	color: #0088a9;
+}
+
+.nav__links li a:hover,
+.nav__links li a:focus {
+	color: #29627e;
+	text-decoration: underline;
 	transition: all 0.3s ease 0s;
 }
 

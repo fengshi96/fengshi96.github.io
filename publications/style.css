@@ -10,7 +10,7 @@
                 
         
 .navbar {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	font-weight: 500;
 	font-size: 20px;
 	color: black
@@ -71,11 +71,19 @@ header {
 }
 
 .nav__links li a {
+	color: #0088a9;
+	text-decoration: none;
 	transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav__links li a:visited {
 	color: #0088a9;
+}
+
+.nav__links li a:hover,
+.nav__links li a:focus {
+	color: #29627e;
+	text-decoration: underline;
 	transition: all 0.3s ease 0s;
 }
 
@@ -108,6 +116,7 @@ button:hover {
 }
 
 body {
+	font-family: "Times New Roman", Times, serif;
 	position:relative; 
 	left: 0px;  
 	margin:0 auto;
@@ -225,4 +234,3 @@ figcaption {
         width: 50%;
     }
 }
-
