@@ -61,6 +61,32 @@ button {
 	margin-top: 1.5rem;
 }
 
+.update-list {
+	margin-top: 1.5rem;
+}
+
+.update-item {
+	margin-bottom: 1.5rem;
+	padding: 1.2rem 1.4rem;
+	border: 1px solid #c8dde3;
+	border-left: 4px solid #0088a9;
+}
+
+.update-date {
+	margin-bottom: 0.35rem;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #29627e;
+}
+
+.update-item h3 {
+	margin-bottom: 0.4rem;
+	font-size: 21px;
+	font-weight: 600;
+}
+
 .highlight-item {
 	margin-bottom: 1.5rem;
 	padding-left: 1rem;
@@ -181,6 +207,10 @@ figcaption {
     }
 
     .highlight-item h3 {
+        font-size: 18px;
+    }
+
+    .update-item h3 {
         font-size: 18px;
     }
 
